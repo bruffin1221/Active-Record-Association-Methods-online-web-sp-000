@@ -13,7 +13,7 @@ class Artist < ActiveRecord::Base
 
   def genre_count
     #return the number of genres associated with the artist
-    genre.count
+    genres.count
     binding.pry
   end
 end
